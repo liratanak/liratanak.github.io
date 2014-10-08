@@ -107,4 +107,8 @@
 	});
 
 	$('body').show();
+
+	if(jQuery && jQuery.browser && jQuery.browser.mobile && $('.link-cv').length) {
+		$('.link-cv').attr("href", "https://onedrive.live.com/embed?cid=7223E7708859D2EA&resid=7223E7708859D2EA%21272&authkey=AGLFepd1FRUPKl8&em=2&wdStartOn=1");
+	}
 })(jQuery);
