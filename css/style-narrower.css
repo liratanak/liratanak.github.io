@@ -82,9 +82,9 @@
 		}
 
 		#navButton .toggle:before {
-			background: rgba(192, 192, 192, 0.75);
+			background: none;
 			border-radius: 6px;
-			color: #fff;
+			color: #666666;
 			content: '\f0c9';
 			display: block;
 			font-size: 16px;
